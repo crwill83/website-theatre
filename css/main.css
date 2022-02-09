@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(0, 0, 0);
+   
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 60%;
+    background-color: black;
+    color: azure;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-1{
+    font-size: 25px;
+    flex-grow: 1;
+    margin-left: 75px;
+}
+
+.header-2{
+    flex-grow: 1;
+}
+.header-3{
+    flex-grow: 1;
+}
+.header-4{
+    flex-grow: 1;
+}
+.header-5{
+    flex-grow: 1;
+}
+.header-6{
+    flex-grow: 1;
+}
+
+#img-theater{
+    width: 75%;
+    height: 600px;
+    margin: auto;
+}
+
+#img-theater img{
+    height: 100%;
+    width: 80%;
+    display: block;
+    margin: auto;
+
+}
+
+.text-centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -130%);
+    color: white;
+    font-size: 100px;
+    margin: auto;
+}
+
+#playlist{
+    width: 60%;
+    height: 1000px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: white;
+}
+
+.month{
+    text-align: center;
+    border: 1px black;
+    border-style: groove;
+    width:60%;
+    margin: auto;
+    background-color: rgb(238, 238, 238);
+    padding: 2px;
+    text-align: left;
+    padding-left: 40px;
+    flex-grow: 0;
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-play{
+    width: 62%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+}
+
+#playlist ul{
+    list-style: none;
+    height: 100px;
+    margin-top: 0px;
+}
+
+#playlist li{
+    padding-bottom: 15px;
+}
+
+#playlist img{
+    height: 70%;
+}
+
+.title-play{
+    font-size: 20px;
+}
+
+#play1{
+    flex-grow: 1;
+    margin-top: 30px;
+}
+#play2{
+    flex-grow: 1;
+}
+#play3{
+    flex-grow: 1;
+}
+#play4{
+    flex-grow: 1;
+}
+
+button{
+    height: 42px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: rgb(235, 182, 37);
+    color: white;
+    border: 0.5px black;
+    position: absolute;
+    margin-right: 0px;
+    display: inline;
+    left: 63.5%;
+}
+
+.divider{
+    border-bottom: 1px solid black;
+    position: relative;
+    width: 64%;
+    bottom: 40px;
+}
